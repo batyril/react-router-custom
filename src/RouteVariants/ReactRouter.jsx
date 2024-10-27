@@ -1,9 +1,7 @@
 import {Link, Route, Routes} from "react-router-dom";
-import {PAGES} from "./const.js";
-
-const HomePage = () => <p>Home Page</p>
-const AboutPage = () => <p>About Page</p>
-const UserPage = () => <p>User Page</p>
+import {PAGES} from "../const.js";
+import {AboutPage, HomePage, UserPage} from "../Pages..jsx";
+import React from "react";
 
 function ReactRouter() {
   return (

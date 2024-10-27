@@ -1,9 +1,6 @@
 import {useEffect, useState} from 'react'
-import {PAGES} from "./const.js";
-
-const HomePage = () => <p>Home Page</p>
-const AboutPage = () => <p>About Page</p>
-const UserPage = () => <p>User Page</p>
+import {PAGES} from "../const.js";
+import {AboutPage, HomePage, UserPage} from "../Pages..jsx";
 
 const getPathPage = () => location.pathname.slice(1);
 
