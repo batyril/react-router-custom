@@ -1,8 +1,14 @@
-# React + Vite
+# Реализация роутинга в React
+Этот учебный проект демонстрирует пошаговую реализацию роутинга в React-приложении. Мы начнем с базового подхода, используя хеши и событие hashchange, затем перейдем к более современному подходу с использованием History API, и в заключение перепишем все с использованием библиотеки React Router.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Цели проекта
+1. Изучение базовых принципов роутинга в веб-приложениях.
+2. Понимание работы с хешами и событием hashchange.
+3. Освоение использования History API для управления историей навигации.
+4. Применение React Router для создания маршрутов в React-приложении.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Структура проекта
+Проект состоит из трех основных этапов:
+- Базовый роутинг с использованием хешей и hashchange.
+- Роутинг с использованием History API.
+- Переписывание на React Router.
