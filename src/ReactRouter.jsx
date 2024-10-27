@@ -9,15 +9,15 @@ function ReactRouter() {
   return (
     <>
       <header>
-          <Link to={PAGES.HOME} >Home</Link>
+          <Link to={PAGES.HOME}> Home</Link>
           <Link to={PAGES.ABOUT} >About</Link>
           <Link to={PAGES.USER} >User</Link>
       </header>
         <main>
             <Routes>
-                <Route path={PAGES.HOME} component={HomePage} />
-                <Route path={PAGES.ABOUT} component={AboutPage} />
-                <Route path={PAGES.USER} component={UserPage} />
+                <Route path={PAGES.HOME} element={<HomePage/>} />
+                <Route path={PAGES.ABOUT} element={<AboutPage/>} />
+                <Route path={PAGES.USER} element={<UserPage/>} />
             </Routes>
         </main>
     </>
