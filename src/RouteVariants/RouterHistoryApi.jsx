@@ -7,16 +7,18 @@ const getPathPage = () => location.pathname.slice(1);
 function RouterHistoryApi() {
   const [page, setPage] = useState(getPathPage())
 
-    const handlePathChange = () => {
-        const newPageHash = getPathPage()
-        setPage(newPageHash)
-    };
+
 
     const handleLinkClick = (e) => {
         e.preventDefault();
         history.pushState({},'',e.target.href)
         handlePathChange()
     }
+
+    const handlePathChange = () => {
+        const newPagePath = getPathPage()
+        setPage(newPagePath)
+    };
 
     useEffect(() => {
         //работа с историей браузера
